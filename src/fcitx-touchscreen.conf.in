@@ -1,0 +1,8 @@
+[Addon]
+Name=fcitx-touchscreen
+_GeneralName=Touch Screen 
+_Comment=Add Seemless Touch Screen Support
+Category=Module
+Enabled=True
+Library=fcitx-touchscreen.so
+Type=SharedLibrary

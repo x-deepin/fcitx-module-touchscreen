@@ -1,0 +1,7 @@
+[CloudPinyin/Enabled]
+Type=Boolean
+DefaultValue=True
+Description=Enabled
+
+[DescriptionFile]
+LocaleDomain=fcitx-touchscreen

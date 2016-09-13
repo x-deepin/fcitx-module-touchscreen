@@ -1,0 +1,32 @@
+Source: fcitx-touchscreen
+Section: utils
+Priority: optional
+Maintainer: snyh@snyh.org
+Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
+Build-Depends: debhelper (>= 9), cmake, fcitx-libs-dev (>= 1:4.2.8),
+  fcitx-bin, pkg-config, libglib2.0-dev
+Standards-Version: 3.9.6
+Homepage: http://fcitx-im.org
+
+Package: fcitx-module-touchscreen
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-modules (>=1:4.2.8), xdotool
+Recommends: fcitx (>=1:4.2.8)
+Description: Flexible Input Method Framework - touchscreen module
+ Fcitx is the Flexible Input Method Framework, which was initially designed
+ for Chinese users, and used XIM protocol. Now it has already evolved
+ into a highly modularized, feature rich input method framework for
+ Unix-like platforms supporting a considerable amount of frontends,
+ backends and modules.
+ .
+ It is an ideal choice for the vast majority. Many of its features make
+ users of Unix-like platforms have a fully modern input experience for
+ the first time. It has also greatly lower the threshold for developers,
+ making the development of extended funtions much easier than ever before.
+ .
+ This package provides the touchscreen module, which supports to type
+ on tochscreen seemless.
+ .
+ Please be aware by installing and enabling this module, Fcitx will send
+ your input data to the Internet to retrieve result candidates.
